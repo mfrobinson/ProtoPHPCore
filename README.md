@@ -32,8 +32,8 @@ STATIC_CONNCPP;CPPCONN_PUBLIC_FUNC=;
 ## Features
 
 - Fast and lightweight
-- Clean interfaces ready for extension
-- Designed with polymorphism in mind
+- Clean interfaces
+- Ready to use with ProtoPHP
 
 ## Contributing
 
