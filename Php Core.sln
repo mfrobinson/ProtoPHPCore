@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProtoPHPCore", "Php Core\Php Core.vcxproj", "{F1625603-2E0A-4145-A909-A8855FECB105}"
+	ProjectSection(ProjectDependencies) = postProject
+		{20201E5A-2465-4640-ACA9-C11467A7A505} = {20201E5A-2465-4640-ACA9-C11467A7A505}
+		{E06A3FC7-E94C-4456-8835-14F29C535A9C} = {E06A3FC7-E94C-4456-8835-14F29C535A9C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProtoPHPInterface", "..\ProtoPHPInterface\ProtoPHPInterface\ProtoPHPInterface\ProtoPHPInterface.vcxproj", "{20201E5A-2465-4640-ACA9-C11467A7A505}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E06A3FC7-E94C-4456-8835-14F29C535A9C} = {E06A3FC7-E94C-4456-8835-14F29C535A9C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Proto", "..\..\Proto\0.0.2\Proto\Proto\Proto.vcxproj", "{E06A3FC7-E94C-4456-8835-14F29C535A9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1625603-2E0A-4145-A909-A8855FECB105}.Debug|x64.ActiveCfg = Debug|x64
+		{F1625603-2E0A-4145-A909-A8855FECB105}.Debug|x64.Build.0 = Debug|x64
+		{F1625603-2E0A-4145-A909-A8855FECB105}.Debug|x86.ActiveCfg = Debug|Win32
+		{F1625603-2E0A-4145-A909-A8855FECB105}.Debug|x86.Build.0 = Debug|Win32
+		{F1625603-2E0A-4145-A909-A8855FECB105}.Release|x64.ActiveCfg = Release|x64
+		{F1625603-2E0A-4145-A909-A8855FECB105}.Release|x64.Build.0 = Release|x64
+		{F1625603-2E0A-4145-A909-A8855FECB105}.Release|x86.ActiveCfg = Release|Win32
+		{F1625603-2E0A-4145-A909-A8855FECB105}.Release|x86.Build.0 = Release|Win32
+		{20201E5A-2465-4640-ACA9-C11467A7A505}.Debug|x64.ActiveCfg = Debug|x64
+		{20201E5A-2465-4640-ACA9-C11467A7A505}.Debug|x64.Build.0 = Debug|x64
+		{20201E5A-2465-4640-ACA9-C11467A7A505}.Debug|x86.ActiveCfg = Debug|Win32
+		{20201E5A-2465-4640-ACA9-C11467A7A505}.Debug|x86.Build.0 = Debug|Win32
+		{20201E5A-2465-4640-ACA9-C11467A7A505}.Release|x64.ActiveCfg = Release|x64
+		{20201E5A-2465-4640-ACA9-C11467A7A505}.Release|x64.Build.0 = Release|x64
+		{20201E5A-2465-4640-ACA9-C11467A7A505}.Release|x86.ActiveCfg = Release|Win32
+		{20201E5A-2465-4640-ACA9-C11467A7A505}.Release|x86.Build.0 = Release|Win32
+		{E06A3FC7-E94C-4456-8835-14F29C535A9C}.Debug|x64.ActiveCfg = Debug|x64
+		{E06A3FC7-E94C-4456-8835-14F29C535A9C}.Debug|x64.Build.0 = Debug|x64
+		{E06A3FC7-E94C-4456-8835-14F29C535A9C}.Debug|x86.ActiveCfg = Debug|Win32
+		{E06A3FC7-E94C-4456-8835-14F29C535A9C}.Debug|x86.Build.0 = Debug|Win32
+		{E06A3FC7-E94C-4456-8835-14F29C535A9C}.Release|x64.ActiveCfg = Release|x64
+		{E06A3FC7-E94C-4456-8835-14F29C535A9C}.Release|x64.Build.0 = Release|x64
+		{E06A3FC7-E94C-4456-8835-14F29C535A9C}.Release|x86.ActiveCfg = Release|Win32
+		{E06A3FC7-E94C-4456-8835-14F29C535A9C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7716F41F-52F0-4BD7-8A3A-C4F703DE187A}
+	EndGlobalSection
+EndGlobal
